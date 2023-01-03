@@ -1,0 +1,53 @@
+{
+    "header": {
+        "home": "Home",
+        "about": "About",
+        "skills": "Skills",
+        "projects": "Projects",
+        "lightTheme": "Light Theme",
+        "lenguage": "Lenguage",
+        "color": "Palet Colors",
+        "es":"Spanish",
+        "en":"English"
+    },
+    "banner": {
+        "greet": "Hello, I'm",
+        "subtitle": "Frontend Developer",
+        "contact": "Contact me"
+    },
+    "about":{
+        "title":"About Me"
+    },
+    "skills":{
+        "title": "Skills",
+        "skills_desc": "These are the languages ​​and tools I use for my work.",
+        "css_desc": "HTML design language.",
+        "html_desc": "HyperText Markup Language.",
+        "js_desc": "Programming language.",
+        "react_desc": "JS library for the UI."
+    },
+    "projects":{
+        "title": "Projects",
+        "desc": "These are the projects I've been working on.",
+        "webBtn": "View",
+        "codeBtn": "View Code"
+    },
+    "foot": {
+        "social": "Social Media",
+        "send_mail": "Send me a Mail",
+        "name": "Name",
+        "name_req": "This input only accepts letters between 4 and 40 characters.",
+        "mail": "Mail",
+        "mail_req": "Enter a valid email.",
+        "msg": "Message",
+        "msg_req": "This entry is required and accepts between 10/300 characters.",
+        "succes_input": "All right!",
+        "succes_send": "Sent successfully.",
+        "error_send": "Error. Try again.",
+        "form_invalid": "You need to fill the form correctly.",
+        "rights": "All Rights Reserved - 2022"
+    },
+    "other":{
+        "up_btn": "Up to Home"
+    }
+}

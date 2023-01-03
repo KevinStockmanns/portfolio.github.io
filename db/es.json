@@ -1,0 +1,53 @@
+{
+    "header": {
+        "home": "Inicio",
+        "about": "Sobre Mi",
+        "skills": "Habilidades",
+        "projects": "Proyectos",
+        "lightTheme": "Modo Claro",
+        "lenguage": "Idioma",
+        "color": "Paleta de Colores",
+        "es": "Español",
+        "en": "Ingles"
+    },
+    "banner": {
+        "greet": "Hola, soy",
+        "subtitle": "Desarrollador Frontend",
+        "contact": "Escribeme"
+    },
+    "about":{
+        "title":"Sobre Mí"
+    },
+    "skills":{
+        "title": "Habilidades",
+        "skills_desc": "Estos son los lenguajes y herramientas que utilizo para mis trabajos.",
+        "css_desc": "Lenguaje de diseño de HTML.",
+        "html_desc": "Lenguaje de marcado de Hipertexto.",
+        "js_desc": "Lenguaje de programacion.",
+        "react_desc": "Librería de JS para la IU."
+    },
+    "projects":{
+        "title": "Proyectos",
+        "desc": "Estos son los proyectos en los que he estado trabajando.",
+        "webBtn": "Ver Sitio",
+        "codeBtn": "Ver Repositorio"
+    },
+    "foot": {
+        "social": "Redes Sociales",
+        "send_mail": "Enviame un correo",
+        "name": "Nombre",
+        "name_req": "Este campo solo acepta letras entre 4 y 40 caracteres.",
+        "mail": "Correo",
+        "mail_req": "Ingresa un correo valido.",
+        "msg": "Asunto",
+        "msg_req": "Este campo es obligatorio y acepta entre 10/300 caracteres.",
+        "succes_input": "¡Todo en orden!",
+        "succes_send": "Enviado exitosamente.",
+        "error_send": "Ocurrio un error. Intentalo de nuevo.",
+        "form_invalid": "Necesitas completar el formulario correctamente.",
+        "rights": "Derechos Reservados - 2022"
+    },
+    "other":{
+        "up_btn": "Volver al Inicio"
+    }
+}

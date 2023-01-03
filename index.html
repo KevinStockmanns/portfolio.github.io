@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&lt;Kev/&gt; | Portafolio Web</title>
+    <link rel="stylesheet" href="css/css.css">
+</head>
+<body class="body">
+    <header class="header onScroll" id="header">
+        <div class="header-content content">
+            <a class="logo" href="index.html">&lt;<span>Kev</span>/&gt;</a>
+            <div class="nav-container">
+                <nav class="nav" id="navbar">
+                    <a class="nav-link visible" href="#home">
+                        <ion-icon name="home-outline"></ion-icon>
+                        <span data-sectionLang="header" data-valueLang="home">Inicio</span>
+                    </a>
+                    <a class="nav-link" href="#about">
+                        <ion-icon name="person-outline"></ion-icon>
+                        <span data-sectionLang="header" data-valueLang="about">Sobre Mi</span>
+                    </a>
+                    <a class="nav-link" href="#skills">
+                        <ion-icon name="code-slash-outline"></ion-icon>
+                        <span data-sectionLang="header" data-valueLang="skills">Habilidades</span>
+                    </a>
+                    <a class="nav-link" href="#projects">
+                        <ion-icon name="briefcase-outline"></ion-icon>
+                        <span data-sectionLang="header" data-valueLang="projects">Proyectos</span>
+                    </a>
+                    <div class="selector"></div>
+                </nav>
+                <div class="setting-btn cursor" id="navBtn">
+                    <div class="line line1"></div>
+                    <div class="line line2"></div>
+                    <div class="line line3"></div>
+                    <ul class="settings" id="settings">
+                        <li class="setting setting-theme" id="setting-theme">
+                            <ion-icon name="sunny-outline"></ion-icon>
+                            <span data-sectionLang="header" data-valueLang="lightTheme">Modo Claro</span>
+                            <div class="toggle"><span></span></div>
+                        </li>
+                        <li class="setting setting-lenguage">
+                            <ion-icon name="globe-outline"></ion-icon>
+                            <span data-sectionLang="header" data-valueLang="lenguage">Idioma</span>
+                            <div class="langSelect">
+                                <span id="langSelect">
+                                    Español 
+                                    <ion-icon name="chevron-down-outline"></ion-icon>
+                                </span>
+                                <ul>
+                                    <li data-value="es" data-sectionLang="header" data-valueLang="es">Español</li>
+                                    <li data-value="en" data-sectionLang="header" data-valueLang="en">Ingles</li>
+                                </ul>
+                            </div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="banner" id="home" data-scrollSpy>
+            <div class="banner-content content">
+                <p class="banner-greet" data-sectionLang="banner" data-valueLang="greet">Hola, soy</p>
+                <h1 class="banner-title">Kevin <span>Stockmanns</span></h1>
+                <div class="banner-subtitle" data-sectionLang="banner" data-valueLang="subtitle">Desarrollador Frontend</div>
+                <div class="banner-links">
+                    <a class="button" href="#footer">
+                        <span data-sectionLang="banner" data-valueLang="contact">Escribeme</span>
+                        <ion-icon name="send-outline"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <section class="about section" id="about" data-scrollSpy>
+            <div class="about-content content">
+                <h2 class="about-title title" data-sectionLang="about" data-valueLang="title">Sobre Mi</h2>
+                <img class="about-img scroll-animation" src="assets/about.svg" alt="Kevin Stockmanns">
+                <div class="about-text scroll-animation">
+                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptas officia dolores nobis porro temporibus magni. Officia eveniet illo quos optio rem odio aperiam facilis iusto eligendi expedita obcaecati quis voluptates sit explicabo ducimus corrupti, ad exercitationem iure odit provident quaerat! Pariatur excepturi tenetur possimus aut repellat, architecto sapiente nihil iste laborum exercitationem incidunt sunt! Libero reiciendis velit omnis dignissimos vero. Fuga nemo reiciendis earum nisi numquam labore incidunt repellat dolore dicta voluptatum est modi nam commodi blanditiis nulla debitis maxime asperiores quaerat fugit, minima sequi. Numquam perspiciatis, omnis esse, adipisci facere laborum autem quisquam repellat iusto quia dolorem ipsam aperiam!</p>
+                </div>
+                
+            </div>
+        </section>
+        <section class="skills section" id="skills" data-scrollSpy>
+            <div class="skills-content content">
+                <h2 class="skills-title title" data-sectionLang="skills" data-valueLang="title">Habilidades</h2>
+                <p class="skills-desc" data-sectionLang="skills" data-valueLang="skills_desc">Estos son los lenguajes y herramientas que utilizo.</p>
+                <div class="skills-cards">
+                    <div class="skill-card scroll-animation">
+                        <img src="assets/html-logo.webp" alt="HTML logo">
+                        <h3>HTML</h3>
+                        <p title="Lenguaje de marcado de Hipertexto." data-sectionLang="skills" data-valueLang="html_desc">Lenguaje de marcado de Hipertexto.</p>
+                    </div>
+                    <div class="skill-card scroll-animation card-css">
+                        <img src="assets/css-logo.webp" alt="CSS logo">
+                        <h3>CSS</h3>
+                        <p title="Lenguaje de diseño de HTML." data-sectionLang="skills" data-valueLang="css_desc">Lenguaje de diseño de HTML.</p>
+                    </div>
+                    <div class="skill-card scroll-animation card-js">
+                        <img src="assets/js-logo.webp" alt="JS logo">
+                        <h3>JavaScript</h3>
+                        <p title="Lenguaje de programación." data-sectionLang="skills" data-valueLang="js_desc">Lenguaje de programación.</p>
+                    </div>
+                    <div class="skill-card scroll-animation card-rc">
+                        <img src="assets/react-logo.png" alt="React JS logo">
+                        <h3>React JS</h3>
+                        <p title="Librera de JS para IU." data-sectionLang="skills" data-valueLang="react_desc">Librería de JS para IU.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="projects section" id="projects" data-scrollSpy>
+            <div class="projects-content content">
+                <h2 class="projects-title title" data-sectionLang="projects" data-valueLang="title">Proyectos</h2>
+                <p class="projects-desc" data-sectionLang="projects" data-valueLang="desc">Estos son los proyectos en los que he estado trabajando.</p>
+                <article class="project-cards">
+                    <div class="project-card scroll-animation">
+                        <div class="project-header project-weather">
+                            <div class="project-filter"></div>
+                            <h3>Weather App</h3>
+                        </div>
+                        <div class="project-text">
+                            <p>Página que utilizando una API, que lanza información del clima de la ubicación actual o de la ciduad que quieras saber.</p>
+                            <div class="project-buttons">
+                                <a class="project-webBtn button" href="https://kevinstockmanns.github.io/clima.github.io/" target="_blank" rel="noopener noreferrer">
+                                    <ion-icon name="enter-outline"></ion-icon>
+                                    <span data-sectionLang="projects" data-valueLang="webBtn">Ver Sitio</span>
+                                </a>
+                                <a class="project-codeBtn button" href="https://github.com/KevinStockmanns/clima.github.io" target="_blank" rel="noopener noreferrer">
+                                    <ion-icon name="git-branch-outline"></ion-icon>
+                                    <span data-sectionLang="projects" data-valueLang="codeBtn">Ver Repositorio</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card scroll-animation">
+                        <div class="project-header project-movie">
+                            <div class="project-filter"></div>
+                            <h3>Movie</h3>
+                        </div>
+                        <div class="project-text">
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum facilis, molestiae ipsam itaque doloribus expedita.</p>
+                            <div class="project-buttons">
+                                <a class="project-webBtn button" href="https://movies-kevin-stockmanns.netlify.app/" target="_blank" rel="noopener noreferrer">
+                                    <ion-icon name="enter-outline"></ion-icon>
+                                    <span data-sectionLang="projects" data-valueLang="webBtn">Ver Sitio</span>
+                                </a>
+                                <a class="project-codeBtn button"  target="_blank" rel="noopener noreferrer">
+                                    <ion-icon name="git-branch-outline"></ion-icon>
+                                    <span data-sectionLang="projects" data-valueLang="codeBtn">Ver Repositorio</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+    <footer class="foot content scroll-animation" id="footer">
+        <a class="logo" href="https://kevinstockmanns.github.io/portfolio.github.io/">&lt;<span>Kev</span>/&gt;</a>
+        <h3 class="foot-title-social" data-sectionLang="foot" data-valueLang="social">Redes Sociales</h3>
+        <div class="foot-social">
+            <a href="#"><ion-icon name="logo-github"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-linkedin"></ion-icon></a>
+            <a href="#"><ion-icon name="logo-instagram"></ion-icon></a>
+        </div>
+        <div class="separator"><span class="lineSep"></span><span>O</span><span class="lineSep"></span></div>
+        <form class="contact-form" id="contact-form">
+            <h3 data-sectionLang="foot" data-valueLang="send_mail">Enviame un correo</h3>
+            <div class="input-group scroll-animation">
+                <input type="text" name="name" id="name" autocomplete="off">
+                <label for="name" data-sectionLang="foot" data-valueLang="name">Nombre</label>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <p class="input-error">
+                    <ion-icon name="alert-outline"></ion-icon>
+                    <span data-sectionLang="foot" data-valueLang="name_req">Este campo solo acepta letras entre 4 y 40 caracteres.</span>
+                </p>
+                <p class="input-succes">
+                    <ion-icon name="happy-outline"></ion-icon>
+                    <span data-sectionLang="foot" data-valueLang="succes_input">¡Todo en orden!</span>
+                </p>
+            </div>
+            <div class="input-group scroll-animation">
+                <input type="email" name="email" id="email">
+                <label for="email" data-sectionLang="foot" data-valueLang="mail">Correo</label>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <p class="input-error">
+                    <ion-icon name="alert-outline"></ion-icon>
+                    <span data-sectionLang="foot" data-valueLang="mail_req">Ingresa un correo valido.</span>
+                </p>
+                <p class="input-succes">
+                    <ion-icon name="happy-outline"></ion-icon>
+                    <span data-sectionLang="foot" data-valueLang="succes_input">¡Todo en orden!</span>
+                </p>
+            </div>
+            <div class="input-group scroll-animation">
+                <textarea name="msg" id="msg" cols="30" rows="10"></textarea>
+                <label for="msg" data-sectionLang="foot" data-valueLang="msg">Asunto</label>
+                <ion-icon name="checkmark-outline"></ion-icon>
+                <p class="input-error">
+                    <ion-icon name="alert-outline"></ion-icon>
+                    <span data-sectionLang="foot" data-valueLang="msg_req">Este campo es obligatorio y acepta entre 10/300 caracteres.</span>
+                </p>
+                <p class="input-succes">
+                    <ion-icon name="happy-outline"></ion-icon>
+                    <span data-sectionLang="foot" data-valueLang="succes_input">¡Todo en orden!</span>
+                </p>
+            </div>
+            <input class="cursor scroll-animation" id="sendBtn" type="submit" value="Enviar">
+            <div class="loader" id="loader"><span></span></div>
+            <p class="form-result form-succes" id="form-succes"data-sectionLang="foot" data-valueLang="succes_send">Enviado exitosamente.</p>
+            <p class="form-result form-error" id="form-error" data-sectionLang="foot" data-valueLang="error_send">Ocurrio un error. Intentalo de nuevo.</p>
+            <p class="form-result form-invalid" id="form-invalid" data-sectionLang="foot" data-valueLang="form_invalid">Necesitas completar el formulario correctamente.</p>
+        </form>
+        <span class="foot-text" data-sectionLang="foot" data-valueLang="rights">Derechos Reservados - 2022</span>
+    </footer>
+    <a href="#home" class="upBtn cursor" id="upBtn">
+        <ion-icon name="chevron-up-outline"></ion-icon>
+        <span data-sectionLang="other" data-valueLang="up_btn"></span>
+    </a>
+
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script type="module" src="./js/js.js"></script>
+</body>
+</html>
