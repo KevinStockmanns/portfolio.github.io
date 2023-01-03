@@ -90,10 +90,9 @@ export function upBtn (){
     const $btn = d.getElementById("upBtn")
 
     d.addEventListener("scroll",e=>{
-        // console.log(innerHeight, body.clientHeight)
-        if( scrollY === (body.offsetHeight - innerHeight)){
+        if( scrollY > (body.offsetHeight - innerHeight - 300)){
             setTimeout(() => {
-                scrollY === (body.offsetHeight - innerHeight) ? $btn.classList.add("visible") : $btn.classList.remove("visible")
+                scrollY > (body.offsetHeight - innerHeight - 300) ? $btn.classList.add("visible") : $btn.classList.remove("visible")
             }, 1500);
         }else{
             $btn.classList.remove("visible")
